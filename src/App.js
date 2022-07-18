@@ -1,11 +1,13 @@
-import logo from "./logo.svg";
-import "./App.css";
-
+import Navbar from "./Componets/Navbar/Navbar"; // anexamos el componente del navbar a la app
+import User from "./Componets/User/User"; // anexamos el componente del perfil a la app
+import Footer from "./Componets/Footer/Footer"; // anexamos el componente del footer
 function App() {
   return (
-    <div className="App">
-      <h1>GitHub Clone</h1>
-    </div>
+    <>
+      <Navbar />
+      <User />
+      <Footer />
+    </>
   );
 }
 
