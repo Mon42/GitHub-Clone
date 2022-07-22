@@ -3,147 +3,113 @@ import React from "react";
 const User = () => {
   return (
     <section>
-      <img src="" alt="User" />
+      <a href="/user">
+        <img src="" alt="User" />
+      </a>
       <div>
-        <h3>Mon42</h3>
-        <button>Edit profile</button>
-        <svg
-          class="octicon octicon-clock"
-          viewBox="0 0 16 16"
-          version="1.1"
-          width="16"
-          height="16"
-          aria-hidden="true"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"
-          ></path>
-        </svg>
-        <span>Joined 11 days ago</span>
-      </div>
-      <aside>
+        <h1>
+          <span>Ramón Villaseñor</span>
+        </h1>
+        <span>Mon42</span>
         <div>
-          <nav>
-            <section>
-              <div>
-                <svg
-                  aria-hidden="true"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  version="1.1"
-                  width="16"
-                  data-view-component="true"
-                  class="octicon octicon-repo UnderlineNav-octicon hide-sm"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"
-                  ></path>
-                </svg>
-                <a href="/Overview"> Overview</a>
-                <svg
-                  aria-hidden="true"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  version="1.1"
-                  width="16"
-                  data-view-component="true"
-                  class="octicon octicon-repo UnderlineNav-octicon hide-sm"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"
-                  ></path>
-                </svg>
-                <a href="/Repositories"> Repositories</a>
-                <svg
-                  aria-hidden="true"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  version="1.1"
-                  width="16"
-                  data-view-component="true"
-                  class="octicon octicon-table UnderlineNav-octicon hide-sm"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v3.585a.746.746 0 010 .83v8.085A1.75 1.75 0 0114.25 16H6.309a.748.748 0 01-1.118 0H1.75A1.75 1.75 0 010 14.25V6.165a.746.746 0 010-.83V1.75zM1.5 6.5v7.75c0 .138.112.25.25.25H5v-8H1.5zM5 5H1.5V1.75a.25.25 0 01.25-.25H5V5zm1.5 1.5v8h7.75a.25.25 0 00.25-.25V6.5h-8zm8-1.5h-8V1.5h7.75a.25.25 0 01.25.25V5z"
-                  ></path>
-                </svg>
-                <a href="/Projects"> Projects</a>
-              </div>
-            </section>
-          </nav>
-          <div>
-            <div>
-              <a href="/GitHub-Clone">GitHub-Clone</a>
-              <span></span>
-              <span>Public</span>
-            </div>
-            <div>
-              <p>First Project with node Js</p>
-            </div>
-            <div>
-              <span></span>
-              <p>Html</p>
-              <p>Updated 4 days ago</p>
-            </div>
-            <div>
-              <button>
-                <svg
-                  aria-hidden="true"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  version="1.1"
-                  width="16"
-                  data-view-component="true"
-                  class="octicon octicon-star d-inline-block mr-2"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"
-                  ></path>
-                </svg>
-                <span>Star</span>
-              </button>
-            </div>
-          </div>
-
-          <div>
-            {"Second module"}
-            <div>
-              <a href="/desktop-tutorial"> desktop-tutorial</a>
-              <span></span>
-              <span>Public</span>
-            </div>
-            <div>
-              <span></span>
-              <p>GitHub Desktop tutorial repository</p>
-              <p>Updated 14 days ago</p>
-            </div>
-            <div>
-              <button>
-                <svg
-                  aria-hidden="true"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  version="1.1"
-                  width="16"
-                  data-view-component="true"
-                  class="octicon octicon-star d-inline-block mr-2"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"
-                  ></path>
-                </svg>
-                <span>Star</span>
-              </button>
-            </div>
-          </div>
+          <button>Edit profile</button>
         </div>
-      </aside>
+        <div>
+          <a href="/followers">
+            <svg
+              text="muted"
+              aria-hidden="true"
+              height="16"
+              viewBox="0 0 16 16"
+              version="1.1"
+              width="16"
+              data-view-component="true"
+              class="octicon octicon-people"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M5.5 3.5a2 2 0 100 4 2 2 0 000-4zM2 5.5a3.5 3.5 0 115.898 2.549 5.507 5.507 0 013.034 4.084.75.75 0 11-1.482.235 4.001 4.001 0 00-7.9 0 .75.75 0 01-1.482-.236A5.507 5.507 0 013.102 8.05 3.49 3.49 0 012 5.5zM11 4a.75.75 0 100 1.5 1.5 1.5 0 01.666 2.844.75.75 0 00-.416.672v.352a.75.75 0 00.574.73c1.2.289 2.162 1.2 2.522 2.372a.75.75 0 101.434-.44 5.01 5.01 0 00-2.56-3.012A3 3 0 0011 4z"
+              ></path>
+            </svg>
+            <span>Followers </span>
+          </a>
+          <a href="Following">
+            <span>1 </span>
+            <span>Following</span>
+          </a>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <svg
+                class="octicon octicon-organization"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+                aria-hidden="true"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1.5 14.25c0 .138.112.25.25.25H4v-1.25a.75.75 0 01.75-.75h2.5a.75.75 0 01.75.75v1.25h2.25a.25.25 0 00.25-.25V1.75a.25.25 0 00-.25-.25h-8.5a.25.25 0 00-.25.25v12.5zM1.75 16A1.75 1.75 0 010 14.25V1.75C0 .784.784 0 1.75 0h8.5C11.216 0 12 .784 12 1.75v12.5c0 .085-.006.168-.018.25h2.268a.25.25 0 00.25-.25V8.285a.25.25 0 00-.111-.208l-1.055-.703a.75.75 0 11.832-1.248l1.055.703c.487.325.779.871.779 1.456v5.965A1.75 1.75 0 0114.25 16h-3.5a.75.75 0 01-.197-.026c-.099.017-.2.026-.303.026h-3a.75.75 0 01-.75-.75V14h-1v1.25a.75.75 0 01-.75.75h-3zM3 3.75A.75.75 0 013.75 3h.5a.75.75 0 010 1.5h-.5A.75.75 0 013 3.75zM3.75 6a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM3 9.75A.75.75 0 013.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 013 9.75zM7.75 9a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM7 6.75A.75.75 0 017.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 017 6.75zM7.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5z"
+                ></path>
+              </svg>
+              <span>Petroil</span>
+            </li>
+            <li>
+              <svg
+                class="octicon octicon-location"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+                aria-hidden="true"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M11.536 3.464a5 5 0 010 7.072L8 14.07l-3.536-3.535a5 5 0 117.072-7.072v.001zm1.06 8.132a6.5 6.5 0 10-9.192 0l3.535 3.536a1.5 1.5 0 002.122 0l3.535-3.536zM8 9a2 2 0 100-4 2 2 0 000 4z"
+                ></path>
+              </svg>
+              <span>Colima, Col.</span>
+            </li>
+            <li>
+              <svg
+                class="octicon octicon-clock"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                height="16"
+                aria-hidden="true"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"
+                ></path>
+              </svg>
+              <span>Joined 11 days ago</span>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2>
+            <a href="Achievements">Achievements</a>
+          </h2>
+        </div>
+        <div>
+          <a href="/Quickdraw">
+            <img
+              src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png"
+              alt="Quickdraw"
+            />
+          </a>
+          <a href="Pullshark3">
+            <img
+              src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png"
+              alt="Pull Shark"
+            ></img>
+          </a>
+        </div>
+      </div>
     </section>
   );
 };
